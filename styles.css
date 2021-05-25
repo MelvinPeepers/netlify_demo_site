@@ -58,15 +58,56 @@ custom css
 
 *****/
 
+.nav {
+  padding: 0;
+  margin: 0;
+}
 .nav ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav li a {
   text-decoration: underline;
 }
 
+/****
+form
+****/
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+input {
+  width: 50%;
+  padding: 12px;
+}
+
+textarea {
+  width: 50%;
+  padding: 25px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+
+/****
+end of form
+****/
+
+.hidden {
+  display: none
+}
 
 
 /****
