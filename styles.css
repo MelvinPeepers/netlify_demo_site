@@ -115,6 +115,10 @@ h3 {
   font-size: 24px;
 }
 
+p .hidden {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: underline;
