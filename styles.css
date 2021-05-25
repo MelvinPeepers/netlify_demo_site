@@ -52,6 +52,29 @@ body {
   animation: panning-stars 400s linear infinite alternate;
 }
 
+/****
+
+custom css
+
+*****/
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li a {
+  text-decoration: underline;
+}
+
+
+
+
+/****
+
+custom css
+
+*****/
+
 @keyframes panning-stars {
   from {
     transform: translate(-20%, 0%);
@@ -84,7 +107,7 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 3rem;
 }
 
 h3 {
@@ -95,6 +118,7 @@ h3 {
 a {
   color: inherit;
   text-decoration: underline;
+  font-size: 2rem;
 }
 
 .title-marvel {
