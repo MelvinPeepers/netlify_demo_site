@@ -21,18 +21,32 @@
     <div class="marvellous-container">
       <div class="header">
         <h1 class="title-studios">Basic Netlify Site for testing features</h1>
-
         <h2>
-          Testing Netlify Site
+          Testing Netlify Forms
         </h2>
-        <nav class='nav'>
-          <ul>
-            <li>
-              <a href="form.html">Forms</a>
-            </li>
-          </ul>
-        </nav>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <div data-netlify-recaptcha="true"></div>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+        </form>
       </div>
     </div>
   </body>
 </html>
+
+
+
